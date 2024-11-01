@@ -12,7 +12,7 @@ export function LoginContainer({
   title,
 }: LoginContainerProps) {
   return (
-    <div className={`${className || "container w-full"}`}>
+    <div className={`${className} || container w-full`}>
       <h1 className="text-4xl">{title}</h1>
       {children}
     </div>
